@@ -1,0 +1,22 @@
+/*
+ Theme Name:   The Business Child
+ Template:     thebusiness
+ Description:  The Business Child Theme
+ Author:       Sam Kirtley
+ Version:      1.0.0
+*/
+
+.beardcum-wrap {
+  display: none;
+}
+
+.wrapper.page-inner-title,
+.site-footer {
+  background-image: url('./img/mosaic.png');
+  background-repeat: repeat;
+  background-size: 400px;
+}
+
+.site-footer .social-links-n-copy-right {
+  margin-top: 0;
+}
