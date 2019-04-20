@@ -4,7 +4,7 @@
     $(document).ready(function () {
         // NICE SCROLL 
         $('body').niceScroll({
-            cursorcolor: '#2196F3',
+            cursorcolor: '#01824a',
             cursoropacitymin: 0.4,
             cursorborder: 'none',
             scrollspeed: 80,

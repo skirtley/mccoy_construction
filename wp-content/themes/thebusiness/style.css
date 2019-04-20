@@ -1281,8 +1281,8 @@ h3#reply-title {
 .btn-blue-border:hover,
 .btn-blue-border:focus,
 .btn-blue-border:active {
-  background-color: #2196f3;
-  border-color: #2196f3;
+  background-color: #01824a;
+  border-color: #01824a;
   color: #fff !important;
 }
 
@@ -1497,10 +1497,10 @@ body.salient-no-sidebar #secondary {
 .single-post .tb-post-content main,
 .page .tb-post-content main,
 .archive .tb-post-content article {
-  /*border-top: 6px solid #2196f3;*/
+  /*border-top: 6px solid #01824a;*/
   margin: 40px 0;
   padding: 0 0 15px;
-  border-bottom: 2px solid #2196f3;
+  border-bottom: 2px solid #01824a;
   /*-webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.04);
   -moz-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.04);
   -o-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.04);
@@ -2152,7 +2152,7 @@ object {
   display: inline-block;
   position: fixed;
   right: 15px;
-  background: #2196f3 none repeat scroll 0 0;
+  background: #01824a none repeat scroll 0 0;
   bottom: 15px;
   color: #ffffff;
   font-size: 28px;
@@ -2354,7 +2354,7 @@ section.error-404.not-found ul {
 .main-navigation li a:hover,
 .main-navigation li a:focus,
 .main-navigation li a:active {
-  color: #2196f3;
+  color: #01824a;
 }
 
 #masthead .navigation .main-navigation ul#primary-menu>li a:hover {
@@ -2365,8 +2365,8 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  background: #2196f3;
-  border: #2196f3;
+  background: #01824a;
+  border: #01824a;
   color: #fff;
   box-shadow: none;
   text-shadow: none;
@@ -2545,14 +2545,14 @@ header.entry-header .entry-meta {
 span.posted-on:before {
   content: "\f133";
   font-family: fontAwesome;
-  color: #2196f3;
+  color: #01824a;
   padding-right: 6px;
 }
 
 span.byline:before {
   content: "\f007";
   font-family: fontAwesome;
-  color: #2196f3;
+  color: #01824a;
   padding-right: 6px;
   padding-left: 6px;
 }
@@ -2560,7 +2560,7 @@ span.byline:before {
 span.edit-link:before {
   content: "\f044";
   font-family: fontAwesome;
-  color: #2196f3;
+  color: #01824a;
   padding-right: 6px;
   padding-left: 6px;
 }
@@ -2568,7 +2568,7 @@ span.edit-link:before {
 span.tags-links:before {
   content: "\f02b";
   font-family: fontAwesome;
-  color: #2196f3;
+  color: #01824a;
   padding-right: 6px;
   padding-left: 6px;
 }
@@ -2576,7 +2576,7 @@ span.tags-links:before {
 span.cat-links:before {
   content: "\f0c5";
   font-family: fontAwesome;
-  color: #2196f3;
+  color: #01824a;
   padding-right: 6px;
   padding-left: 6px;
 }
@@ -2584,7 +2584,7 @@ footer.entry-footer span.comments-link:before {
   content: "\f0e5";
   padding-right: 6px;
   font-family: fontAwesome;
-  color: #2196f3;
+  color: #01824a;
   padding-left: 0;
 }
 
@@ -2597,7 +2597,7 @@ body.search.search-results.salient-right-sidebar aside#secondary {
 }
 
 body.search.search-results.salient-right-sidebar article {
-  border-bottom: 2px solid #2196f3;
+  border-bottom: 2px solid #01824a;
   padding: 15px 0;
 }
 
@@ -2671,7 +2671,7 @@ input[type=search] {
 
 header.entry-header a:hover,
 div#breadcrumb a:hover {
-  color: #2196f3;
+  color: #01824a;
 }
 
 
