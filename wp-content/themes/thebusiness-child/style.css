@@ -20,8 +20,3 @@
 .site-footer .social-links-n-copy-right {
   margin-top: 0;
 }
-
-/* Hide captcha thing  */
-.grecaptcha-badge {
-  display: none !important;
-}
