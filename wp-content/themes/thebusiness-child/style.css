@@ -29,3 +29,7 @@
 .dm-banner-section .carousel-inner .item {
   background-position: center;
 }
+
+footer .copy-right a {
+  text-decoration: underline;
+}
