@@ -20,3 +20,12 @@
 .site-footer .social-links-n-copy-right {
   margin-top: 0;
 }
+
+/* Homepage services hide UL */
+.icons-n-titles-coll ul {
+  list-style-type: none;
+}
+
+.dm-banner-section .carousel-inner .item {
+  background-position: center;
+}

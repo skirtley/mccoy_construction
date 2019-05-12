@@ -5,6 +5,9 @@ add_filter('stylesheet_uri', 'use_parent_theme_stylesheet');
 // Enqueue this theme's scripts and styles (after parent theme)
 add_action('wp_enqueue_scripts', 'my_theme_styles', 20);
 
+// Add except on pages
+add_post_type_support( 'page', 'excerpt' );
+
 function use_parent_theme_stylesheet() {
   // Use the parent theme's stylesheet
   return get_template_directory_uri() . '/style.css';
