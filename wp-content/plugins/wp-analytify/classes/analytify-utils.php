@@ -335,8 +335,8 @@ function analytify_remove_conflicting_asset_files( $page ) {
 	}
 
 	wp_dequeue_script( 'default' ); // Bridge theme.
-	// wp_dequeue_script( 'jquery-ui-datepicker' );
-	// wp_deregister_script( 'jquery-ui-datepicker' );
+	wp_dequeue_script( 'jquery-ui-datepicker' );
+	wp_deregister_script( 'jquery-ui-datepicker' );
 	wp_dequeue_script( 'gdlr-tax-meta' ); // MusicClub theme.
 	wp_dequeue_script( 'woosb-backend' ); // WooCommerce Product Bundle.
 	wp_deregister_script( 'bf-admin-plugins' ); // Better Ads Manager plugin.
@@ -348,6 +348,10 @@ function analytify_remove_conflicting_asset_files( $page ) {
 
 	if ( class_exists( 'Woocommerce_Pre_Order' ) ) {
 		wp_dequeue_script( 'plugin-js' ); // Woocommerce Pre Order.
+	}
+
+	if ( class_exists( 'GhostPool_Setup' ) ) {
+		wp_dequeue_script( 'theme-setup' ); // Huber theme.
 	}
 }
 add_action( 'admin_enqueue_scripts', 'analytify_remove_conflicting_asset_files', 999 );

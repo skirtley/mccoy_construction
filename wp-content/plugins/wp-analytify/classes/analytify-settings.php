@@ -252,6 +252,7 @@ if ( ! class_exists( 'WP_Analytify_Settings' ) ) {
 							'show-keywords-dashboard'   => __( 'Keywords Stats', 'wp-analytify' ),
 							'show-social-dashboard'     => __( 'Social Media Stats', 'wp-analytify' ),
 							'show-referrer-dashboard'   => __( 'Referrers Stats', 'wp-analytify' ),
+							'show-what-happen-stats'    => __( 'Entrance Exits Stats', 'wp-analytify' ),
 						),
 					),
 					array(

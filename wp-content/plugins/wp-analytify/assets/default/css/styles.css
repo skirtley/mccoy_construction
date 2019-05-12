@@ -2879,7 +2879,7 @@ div.wp_analytify_pager span.wp_analytify_active, div.wp_analytify_pager span:hov
         .analytify_top_keywords_detials {
             right: 180px;
         }
-    .wp_analytify_campaign_paginated thead {
+    /* .wp_analytify_campaign_paginated thead {
         display: none;
     }
     .wp_analytify_campaign_paginated td{
@@ -2891,6 +2891,9 @@ div.wp_analytify_pager span.wp_analytify_active, div.wp_analytify_pager span:hov
     .wp_analytify_campaign_paginated td::before {
         content: attr(data-title);
         float: left;
+    } */
+    .pa_campaigns_statistics .analytify-detail-campaings-container{
+      overflow-y: auto;
     }
     .wp_analytify_campaign_paginated tbody tr:nth-child(odd) td {
         background: #f9fafa;
@@ -2908,6 +2911,9 @@ div.wp_analytify_pager span.wp_analytify_active, div.wp_analytify_pager span:hov
         background: #fff;
         min-height: 260px;
         position: relative;
+    }
+    .pa_campaigns_statistics .pa-tdo-left{
+      width: 100%;
     }
 }
 /* ========================================================================== Helper classes ========================================================================== */

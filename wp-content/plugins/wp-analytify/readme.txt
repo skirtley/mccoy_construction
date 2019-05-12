@@ -1,10 +1,10 @@
 === Analytify - Google Analytics Dashboard Plugin for WordPress ===
 Contributors: hiddenpearls, Asif2BD, desideveloper
 Donate link: http://paypal.me/Analytify
-Tags: google analytics, google analytics dashboard, WooCommerce stats, WordPress Analytics, analytics, tracking, analytify, install analytics, e-commerce, track, track visitor, statistics, campaign tracking, analytics campaigns, best google analytics, enhanced ecommerce tracking, email analytics report, google analytics export,
+Tags: google analytics, google analytics dashboard, google analytics plugin, WordPress Analytics, analytics, tracking, analytify, install analytics, e-commerce, track, track visitor, statistics, campaign tracking, analytics campaigns, best google analytics, enhanced ecommerce tracking, email analytics report, google analytics export,
 Requires at least: 3.6
-Tested up to: 5.1
-Stable tag: 2.2.11
+Tested up to: 5.2
+Stable tag: 2.2.12
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -70,7 +70,7 @@ Google Analytics for WordPress by Analytify is the must-have Plugin for Google A
 ###### Following is a Complete Hierarchy Structure of Analytify Products Suite.
 
 * Analytify Core (`Free` and Required for all add-ons)
-    *[Dashboard widget](https://analytify.io/add-ons/google-analytics-dashboard-widget-wordpress/) (`Free`)
+    * [Dashboard widget](https://analytify.io/add-ons/google-analytics-dashboard-widget-wordpress/) (`Free`) Google Analytics Widget in your WordPress Dashboard.
     * Analytify Pro (*Paid*)
         * Campaign Tracking (*Paid*)
         * Email Notifications (*Paid*)
@@ -153,6 +153,11 @@ Not at all. Analytify uses Google Analytics Universal tracking JS code to track 
 
 == Changelog ==
 
+= 2.2.12 - 2019-05-02 =
+* Enhancement: Layout issue on Campaigns addon.
+* Enhancement: Confliction with Edit Flow.
+* Enhancement: Confliction with Huber theme.
+
 = 2.2.11 - 2019-04-12 =
 * Bug Fix: User Rate Limit error occur in some cases.
 * Enhancement: Show message when REST API endpoint is disabled.
@@ -160,7 +165,7 @@ Not at all. Analytify uses Google Analytics Universal tracking JS code to track 
 
 = 2.2.10 - 2019-02-21 =
 * Enhancement: Added filter to change Analytics.js source i.e Compatibility with CAOS | Host Google Analytics Locally plugin.
-* Compatibility : Compatible to WordPress 5.1
+* Compatibility: Compatible to WordPress 5.1
 
 = 2.2.9 - 2019-02-14 =
 * Bug Fix: Hide Profile generate error sometime.
@@ -541,7 +546,7 @@ Not at all. Analytify uses Google Analytics Universal tracking JS code to track 
 
 == Upgrade Notice ==
 
-= 2.2.11 =
+= 2.2.12 =
 * [Important Enhancement Update] Upgrade immediately.
 
 
